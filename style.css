@@ -1,0 +1,158 @@
+* {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+
+}
+
+header {
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.9;
+}
+
+header img {
+  height: 50px;
+  width: 15%;
+  padding: 5px;
+  margin: 1px;
+  float: left;
+}
+
+
+ul {
+  padding: 20px;
+  float: right;
+  display: inline;
+  opacity: 0.9;
+  list-style-type: none;
+  margin-top: 1px;
+}
+
+li {
+  display: inline;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: underline;
+  color: grey;
+}
+.top img {
+  height: 700px;
+  width: auto;
+}
+
+.top-container {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: inline-flex;
+}
+
+.middle-top {
+  text-align: center;
+  align-items: center;
+  min-width: 1200px;
+  opacity: 0.9;
+}
+
+#center {
+  align-items: center; 
+}
+
+.middle-container {
+  width: auto;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.middle-container img {
+  height: 200px;
+  width: 300px;
+}
+
+.images {
+  height: 270px;
+  width: 370px;
+}
+
+.title {
+  text-align: center;
+}
+
+#float-top {
+  height: 100px;
+  width: 1000px;
+}
+
+#month {
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+figcaption {
+  text-align: center;
+}
+
+.locations-container {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+h2 {
+  color: seashell;
+}
+
+.location-h2 {
+  padding-top: 30px;
+  width: 900px;
+  height: 50px;
+  font-size: 33px;
+  background-color: rgba(211, 211, 211, 0);
+  padding-bottom: 0;
+  margin-bottom: 15px;
+}
+
+.location-card {
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin-top: 0;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+.bottom {
+  width: auto;
+  height: 200px;
+  text-align: center;
+}
+
+footer p {
+  padding-left: 20px;
+  text-align: left;
+}
+
+
